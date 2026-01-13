@@ -1,8 +1,12 @@
+
+ /* fix the border area */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* navbar section */
 
 .navbar {
     display: flex;
@@ -16,7 +20,10 @@
 }
 
 .logo img {
-    height: 32px;
+    /* height: 32px; */
+
+    width: 100px;
+    height: 40px;
 }
 
 .menu {

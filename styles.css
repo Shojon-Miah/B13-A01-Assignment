@@ -175,4 +175,82 @@
 }
 
 
+/* add card notes section  */
 
+.note-section {
+
+    text-align: center;
+    background: #FFFFFF;
+    padding: 20px 50px;
+}
+
+.note-section h2 {
+
+    font-size: 32px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 12px;
+
+
+    /* align-items: center; */
+    /* max-width: 800px; */
+}
+
+.note-subtitle {
+    font-size: 16px;
+    color: #64748b;
+    max-width: 650px;
+    margin: 0 auto 40px;
+}
+
+/* Cards layout section*/
+
+.notes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* note-card */
+
+.note-card {
+
+    background: #FFFFFF;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.13);
+    border-radius: 10px;
+
+    width: 260px;
+    padding: 30px;
+
+}
+
+.note-card h3 {
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #0f172a;
+
+    margin: 20px 0 12px;
+}
+
+.note-card p {
+
+    font-size: 14px;
+    color: #64748b;
+}
+
+.card-icon {
+
+    background: #ef4444;
+    /* color: #fee2e2; */
+    color: #ffffff;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}

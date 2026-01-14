@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
 /* navbar section */
 
 .navbar {
@@ -86,28 +92,35 @@
 
 .early-badge {
 
-    background-color: #e6f4ea;
+    background: #ffffff;
     color: #2f9e44;
-    border-radius: 700px;
-
-    display: flex;
-    align-items: center;
-    width: 183px;
-    height: 19px;
-
     font-size: 16px;
     font-weight: 500;
-    padding: 0 5px;
-    gap: 6px;
-    /* margin-bottom: 0; */
-    /* margin-bottom: 5px; */
+
+    display: inline-flex;
+    align-items: center;
+
+    border-radius: 500px;
+    padding: 8px 16px 8px 12px;
+    gap: 10px;
     
 }
 
-.baearly-badge img {
+.early-badge::before {
+
+    content: "";
+    width: 8px;
+    height: 8px;
+
+    border-radius: 50%;
+    color: #2f9e44;
+    box-shadow: 0 0 0 4px rgba(47, 158, 68, .7);
+}
+
+/* .baearly-badge img {
   width: 16px;
   height: 16px;
-}
+} */
 
 .banner h1 {
 
